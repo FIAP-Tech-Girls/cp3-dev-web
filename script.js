@@ -2,6 +2,20 @@ function bemVindo(){
     alert('Seja Bem-Vindo')
 }
 
+function validar(){
+    let nome = document.getElementById("nome").value 
+    let email = document.getElementById("email").value
+    let telefone = document.getElementById("telefone").value
+    let mensagem = document.getElementById("mensagem").value
+
+    if(nome == "" || email == "" || telefone == "" || mensagem == ""){
+        alert("Por favor, preencha todos os campos!")
+    }
+    else{
+        alert("Mensagem enviada!")
+    }
+}
+
 var imagens=[
     'imagens/kiara.jpg',
     'imagens/mei.jpg',
