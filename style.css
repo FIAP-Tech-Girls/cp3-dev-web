@@ -42,6 +42,7 @@ body{
 }
 
 h1, h2, h3{
+    padding-top: 1%;
     font-family: 'Lobster', cursive;
     font-weight: bold;
     text-align: center;
@@ -69,7 +70,41 @@ p{
     width:350px;
     height:100px;
 }
-
+#botaoQuiz{
+    background-color: #99D0F2;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 47%;
+    font-family: 'Nunito', sans-serif;
+    width: 100px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px #325573;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+#botao{
+    background-color: #99D0F2;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 47%;
+    font-family: 'Nunito', sans-serif;
+    width: 80px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px #325573;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+#textoQuiz{
+    font-size: 25px;
+}
 #slide{
     height:400px;
 }
@@ -87,6 +122,10 @@ p{
     text-align: justify;
     line-height: 1.2;
     color: white;
+    padding-top: 1%;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: auto;
 }
 
 #textoSobre{
@@ -96,6 +135,10 @@ p{
     text-align: justify;
     line-height: 1.2;
     color: white;
+    padding-top: 1%;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: auto;
 }
 
 #mapa{
@@ -172,4 +215,5 @@ footer{
     text-align: center;
     color: white;
     font-size: 20px;
+    padding-top: 2%;
 }
