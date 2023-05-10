@@ -11,7 +11,7 @@
 
 body{
     font-size: 100%;
-    background-image: linear-gradient(to right, #325573, #8FADBF, #99D0F2);
+    background-image: linear-gradient(to right, #325573, #8FADBF,#99D0F2 );
 }
 
 .container{
@@ -33,7 +33,6 @@ body{
     font-size: 18px;
 }
 #menu a:hover{
-    background-color: #325573;
     color: #99D0F2;
     padding: 4px;
     font-family: 'Nunito', sans-serif;

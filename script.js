@@ -41,9 +41,9 @@ function slideShow(){
 slideShow();
 
 function quiz(){
-    let pergunta1 = Number(prompt(`Qual o jeito correto de armazenar as garrafas de vinhos? \n Escolha uma opção: \n[1] Na horizontal \n[2] Na vertical \n`))
-    let pergunta2 = Number(prompt(`O que é a safra de um vinho? \n Escolha uma opção: \n[1] O ano em que as uvas foram colhidas \n[2] O ano em que o vinho foi feito \n`))
-    let pergunta3 = Number(prompt(`Qual tipo de vinho harmoniza com carne vermelha? \n Escolha uma opção: \n[1] Vinho branco \n[2] Vinho tinto \n`))
+    let pergunta1 = Number(prompt(`Qual alimento que nunca deve se dar a um cão? \n Escolha uma opção: \n[1] Chocolate \n[2] Banana \n`))
+    let pergunta2 = Number(prompt(`Porque o nariz dos cães estão sempre molhados? \n Escolha uma opção: \n[1] Pois o cão lambe \n[2] Pois o cão está gripado \n`))
+    let pergunta3 = Number(prompt(`Porque os cães têm bigodes? \n Escolha uma opção: \n[1] Pois bigodes deixam os cães bonitos  \n[2] Pois bigodes funcionam como órgão sensorial \n`))
     let msg = document.getElementById('msgQuiz')
 
 
