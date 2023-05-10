@@ -2,6 +2,10 @@ function bemVindo(){
     alert('Seja Bem-Vindo')
 }
 
+function trocar(cor){
+    document.body.style.background = cor
+}
+
 function validar(){
     let nome = document.getElementById("nome").value 
     let email = document.getElementById("email").value
