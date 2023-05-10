@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    padding:2px;
 }
+
 body{
     font-size: 100%;
     background-image: linear-gradient(to right, #325573, #8FADBF, #99D0F2);
@@ -81,40 +83,52 @@ p{
     padding:12px;
 }
 
-/*
-.container{
-    width: 100%;
-    height: 900px;
-    margin: auto;
-}
-#menu{
-    width: 100%;
-    height: 150px;
-    text-align: center;
+#tituloSecaoProduto{
+    text-align:justify
 }
 
-#menu ul li{
-    list-style: none;
-    display: inline;
-    padding: 4px;
-    font-weight: bold;
-    text-align: center;
+#racoesProdutos{
+    display: flex;
+    justify-content: space-between;
+    padding-top:10px;
+    padding-left: 40px;
+    margin-right: 10px;
 }
 
-#menu ul li a{
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #e70062;
+.itens{
+    width: 250px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: thin;
+    border-color: black;
+    cursor:pointer;
     text-align: center;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
 }
 
-#menu ul li a:hover{
-    background-color: #e70062;
-    color: #ffaccf;
-    padding: 4px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+.itens img{
+    transition: 500ms linear;
 }
-*/
+
+.itens img:hover{
+    transform: scale(1.1);
+}
+
+.itens button{
+    background-color: black;
+    color: white;
+    border:none;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: 500ms linear;
+}
+
+.itens button:hover{
+    transform: scale(1.1);
+}
+
+#tituloProduto{
+    color:rgb(44, 43, 43);
+}
