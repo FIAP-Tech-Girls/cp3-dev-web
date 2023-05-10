@@ -35,3 +35,7 @@ function slideShow(){
     setTimeout("slideShow()", time);
 }
 slideShow();
+
+let dataRodape = new Date();
+let rodape = document.querySelector("#data");
+rodape.innerHTML = dataRodape.toLocaleDateString();
