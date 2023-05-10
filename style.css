@@ -91,6 +91,7 @@ p{
     display: flex;
     justify-content: space-between;
     padding-top:10px;
+    padding-bottom:10px;
     padding-left: 40px;
     margin-right: 10px;
 }
@@ -131,4 +132,12 @@ p{
 
 #tituloProduto{
     color:rgb(44, 43, 43);
+}
+
+#brinquedosProdutos{
+    display: flex;
+    justify-content: space-between;
+    padding-top:10px;
+    padding-left: 40px;
+    margin-right: 10px;
 }
