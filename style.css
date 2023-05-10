@@ -69,6 +69,18 @@ p{
     line-height: 1.2;
 }
 
+#textoSobre{
+    padding:15px;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+#mapa{
+    text-align: center;
+    padding:12px;
+}
+
 /*
 .container{
     width: 100%;
