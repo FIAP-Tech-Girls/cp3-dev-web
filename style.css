@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:wght@200&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -23,19 +26,30 @@ body{
     gap: 32px;
 }
 #menu a{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffaccf;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: white;
     font-weight: 400;
     font-size: 18px;
 }
+#menu a:hover{
+    background-color: #325573;
+    color: #99D0F2;
+    padding: 4px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+}
+
 h1, h2, h3{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lobster', cursive;
     font-weight: bold;
     text-align: center;
     color: rgb(255, 253, 253);
 }
 
 p{
+    font-family: 'Nunito', sans-serif;
     font-size: 20px;
     color: #fff;
     text-align: center;
@@ -61,21 +75,27 @@ p{
 }
 
 #texto{
+    font-family: 'Nunito', sans-serif;
     padding:15px;
     width: 100%;
+    color: white;
 }
 
 #textoHome{
+    font-family: 'Nunito', sans-serif;
     font-size: 22px;
     text-align: justify;
     line-height: 1.2;
+    color: white;
 }
 
 #textoSobre{
+    font-family: 'Nunito', sans-serif;
     padding:15px;
     font-size: 22px;
     text-align: justify;
     line-height: 1.2;
+    color: white;
 }
 
 #mapa{
@@ -84,7 +104,9 @@ p{
 }
 
 #tituloSecaoProduto{
-    text-align:justify
+    font-family: 'Nunito', sans-serif;
+    text-align:justify;
+    color: white;
 }
 
 #racoesProdutos{
@@ -101,7 +123,7 @@ p{
     border-style: solid;
     border-radius: 10px;
     border-width: thin;
-    border-color: black;
+    border-color: white;
     cursor:pointer;
     text-align: center;
     padding:10px;
@@ -116,7 +138,7 @@ p{
 }
 
 .itens button{
-    background-color: black;
+    background-color: #99D0F2;
     color: white;
     border:none;
     width: 80px;
@@ -131,7 +153,9 @@ p{
 }
 
 #tituloProduto{
-    color:rgb(44, 43, 43);
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    color: white;
 }
 
 #brinquedosProdutos{
@@ -143,6 +167,7 @@ p{
 }
 
 footer{
+    font-family: 'Nunito', sans-serif;
     margin-top:auto;
     text-align: center;
     color: white;
