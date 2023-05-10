@@ -25,6 +25,9 @@ var imagens=[
     'imagens/zoe.jpg'
 ];
 
+var Index = 0;
+var time = 1000;
+
 function slideShow(){
     document.getElementById('slide').src = imagens[Index];
     Index++;
