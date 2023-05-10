@@ -26,7 +26,7 @@ var imagens=[
 ];
 
 var Index = 0;
-var time = 1000;
+var time = 2000;
 
 function slideShow(){
     document.getElementById('slide').src = imagens[Index];
