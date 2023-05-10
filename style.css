@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Nunito+Sans&display=swap');
 
 * {
     margin: 0;
@@ -11,7 +10,7 @@
 
 body{
     font-size: 100%;
-    background-image: linear-gradient(to right, #325573, #8FADBF,#99D0F2 );
+    background-image: linear-gradient(68.15deg, #dfc0f5 16.62%, #3a0f59 85.61%);
 }
 
 .container{
@@ -21,12 +20,15 @@ body{
     justify-content: space-around;
     padding: 24px;
 }
+.cabecalho-img{
+    height: 150px;
+}
 #menu{
     display: flex;
     gap: 32px;
 }
 #menu a{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
     color: white;
     font-weight: 400;
@@ -35,24 +37,31 @@ body{
 #menu a:hover{
     color: #99D0F2;
     padding: 4px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     text-align: center;
     border-radius: 10px;
+}
+#slides{
+    
 }
 
 h1, h2, h3{
     padding-top: 1%;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-size: 45px;
     font-weight: bold;
     text-align: center;
     color: rgb(255, 253, 253);
 }
 
 p{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;
     color: #fff;
     text-align: center;
+}
+#contato{
+    padding: 1%;
 }
 #botaoTexto{
     font-size: 10px;
@@ -74,7 +83,7 @@ p{
     color: white;
     text-transform: uppercase;
     margin-left: 47%;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     width: 100px;
     height: 40px;
     border: none;
@@ -90,7 +99,7 @@ p{
     color: white;
     text-transform: uppercase;
     margin-left: 47%;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     width: 80px;
     height: 40px;
     border: none;
@@ -109,14 +118,14 @@ p{
 }
 
 #texto{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     padding:15px;
     width: 100%;
     color: white;
 }
 
 #textoHome{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 22px;
     text-align: justify;
     line-height: 1.2;
@@ -128,7 +137,7 @@ p{
 }
 
 #textoSobre{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     padding:15px;
     font-size: 22px;
     text-align: justify;
@@ -146,7 +155,7 @@ p{
 }
 
 #tituloSecaoProduto{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     text-align:justify;
     color: white;
 }
@@ -195,7 +204,7 @@ p{
 }
 
 #tituloProduto{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 17px;
     color: white;
 }
@@ -209,8 +218,8 @@ p{
 }
 
 footer{
-    font-family: 'Nunito', sans-serif;
-    margin-top:auto;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: auto;
     text-align: center;
     color: white;
     font-size: 20px;
