@@ -6,7 +6,7 @@
 }
 body{
     font-size: 100%;
-    background-image: linear-gradient(to right, #3285A6, #F2E5D5, #99D0F2);
+    background-image: linear-gradient(to right, #325573, #8FADBF, #99D0F2);
 }
 
 .container{
@@ -53,8 +53,20 @@ p{
     width:350px;
     height:100px;
 }
-    #slide{
+
+#slide{
     height:400px;
+}
+
+#texto{
+    padding:15px;
+    width: 100%;
+}
+
+#textoHome{
+    font-size: 22px;
+    text-align: justify;
+    line-height: 1.2;
 }
 
 /*
