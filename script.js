@@ -36,6 +36,3 @@ function slideShow(){
 }
 slideShow();
 
-let dataRodape = new Date();
-let rodape = document.querySelector("#data");
-rodape.innerHTML = dataRodape.toLocaleDateString();

@@ -141,3 +141,10 @@ p{
     padding-left: 40px;
     margin-right: 10px;
 }
+
+footer{
+    margin-top:auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
