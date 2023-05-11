@@ -21,12 +21,12 @@ function validar(){
 }
 
 var imagens=[
-    'imagens/kiara.jpg',
-    'imagens/mei.jpg',
-    'imagens/tom.jpg',
-    'imagens/totoro.jpg',
-    'imagens/zoca.jpg',
-    'imagens/zoe.jpg'
+    'imagens/kiara.png',
+    'imagens/mei.png',
+    'imagens/tom.png',
+    'imagens/totoro.png',
+    'imagens/zoca.png',
+    'imagens/zoe.png'
 ];
 
 var Index = 0;
